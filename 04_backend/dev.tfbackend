@@ -1,0 +1,3 @@
+bucket = "terraform-course-backend-kp"
+key = "04_backend/dev/state.tfstater"
+region = "us-east-1"

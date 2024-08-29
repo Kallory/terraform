@@ -14,9 +14,11 @@ terraform {
 
   backend "s3" {
     bucket = "terraform-course-backend-kp"
-    key = "state.tfstate"
+    key = "04_backend/state.tfstate"
     region = "us-east-1"
+
   }
+
 }
 
 provider "aws" {
